@@ -1,0 +1,7 @@
+python3 -m venv venv
+source venv/bin/activate ---> Para activar
+deactivate ---> Para desactivar
+alias avenv="source venv/bin/activate"
+
+pip freeze > requirements.txt ---> Guardar las dependencias con sus respectivas versiones
+pip install -r {archivo} ---> Instalas las dependencias descritas en un archivo
